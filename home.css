@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap');
+
+:root {
+    --primary-color: #00d9ff;
+    --text-color: white;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: var(--background-color);
+    color: var(--text-color);
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url("5652030.jpg"); 
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.site-title{
+    text-emphasis-color:#37af00 ;
+    text-decoration: wavy;
+    font-size: large;
+    font-style: italic;
+    padding:1rem 1rem ;
+    margin-right:10cm;
+}
+nav {
+    background-color: #333;
+    padding: 50px 0;
+    text-align: center;
+    border-bottom-left-radius:50%;
+    border-bottom-right-radius:50%;
+}
+
+.nav-tabs {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.nav-tabs li {
+    display: inline;
+    margin: 0 15px;
+}
+
+.nav-tabs li a {
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+    padding: 10px 15px;
+    transition: 0.3s;
+}
+
+.nav-tabs li a:hover {
+    background-color: #555;
+    border-radius: 5px;
+}
+
+
+.specs{
+    display:flex;
+}
+.animated-text{
+    font-style:italic;
+    font-size: 28px;
+    font-weight: bold;
+    color: #ff5722; 
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3); 
+    font-family: 'Poppins', sans-serif; 
+    padding-right:5% ;
+    height: 100%;
+    margin-left:10% ;
+ 
+}
+footer {
+    text-align: center;
+    padding: 1rem;
+    background-color: #333;
+    color: hwb(64 18% 6%);
+    margin-top: 2rem;
+   ;
+}
+
+
+
+
+
+
+
